@@ -43,7 +43,7 @@ Mobile-view:
 
 ### What I learned
 
-This project was really helpfull for practising DOM manipulation usin JS.
+This project was really helpful for practising DOM manipulation using JS.
 
 ```js
 readBtn.addEventListener("click", () => {
