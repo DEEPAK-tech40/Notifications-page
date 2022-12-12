@@ -125,6 +125,13 @@ figure>figcaption>p {
 .post-img {
     margin-left: auto;
     cursor: pointer;
+    width: 3rem;
+    height: 2.5rem;
+}
+
+.post-img>img {
+    height: 100%;
+    width: 100%;
 }
 
 #rizky>figcaption>.msg {
@@ -150,7 +157,7 @@ footer>p>a {
     color: var(--Red);
 }
 
-@media screen and (min-width:650px) {
+@media screen and (min-width:700px) {
     body {
         background-color: var(--Lightgrayishblue1);
         padding: 5%;
@@ -171,6 +178,7 @@ footer>p>a {
 
     .post-img {
         height: 4rem;
+        width: 4rem;
     }
 
     #read:hover {
