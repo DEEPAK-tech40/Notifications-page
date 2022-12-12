@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+:root {
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+    --White: hsl(0, 0%, 100%);
+    --Verylightgrayishblue: hsl(210, 60%, 98%);
+    --Lightgrayishblue1: hsl(211, 68%, 94%);
+    --Lightgrayishblue2: hsl(205, 33%, 90%);
+    --Grayishblue: hsl(219, 14%, 63%);
+    --Darkgrayishblue: hsl(219, 12%, 42%);
+    --Verydarkblue: hsl(224, 21%, 14%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    color: var(--Verydarkblue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 3%;
+    gap: 2rem;
+}
+
+h1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2.5%;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--Verydarkblue);
+    margin-bottom: 15px;
+}
+
+#cnt {
+    font-size: 20px;
+    background-color: var(--Blue);
+    width: 2.5rem;
+    height: 1.8rem;
+    text-align: center;
+    color: var(--White);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#read {
+    margin-left: auto;
+    color: var(--Darkgrayishblue);
+    font-size: 14px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.473);
+    cursor: pointer;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 15px;
+}
+
+figure {
+    display: flex;
+    padding: 5%;
+    gap: 5%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+figure>img {
+    height: 2.5rem;
+}
+
+figure>figcaption {
+    line-height: 1.3;
+}
+
+figure>figcaption>p {
+    margin: 3px 0;
+}
+
+.name {
+    font-weight: 800;
+}
+
+.action {
+    color: var(--Darkgrayishblue);
+    margin: 0 3px;
+}
+
+.post {
+    color: var(--Darkgrayishblue);
+    font-weight: 800;
+}
+
+.grp {
+    color: var(--Blue);
+    font-weight: 800;
+}
+
+.uread {
+    display: inline-block;
+    height: .5rem;
+    width: .5rem;
+    border: 2px solid var(--Red);
+    background-color: var(--Red);
+    border-radius: 100px;
+    margin: 1px 3px;
+}
+
+.time {
+    color: var(--Grayishblue);
+}
+
+.post-img {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+#rizky>figcaption>.msg {
+    border: 1px solid var(--Lightgrayishblue2);
+    padding: 4%;
+    color: var(--Darkgrayishblue);
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.unread {
+    background-color: var(--Verylightgrayishblue);
+}
+
+footer {
+    text-align: center;
+    color: var(--Darkgrayishblue);
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: var(--Red);
+}
+
+@media screen and (min-width:650px) {
+    body {
+        background-color: var(--Lightgrayishblue1);
+        padding: 5%;
+    }
+
+    main {
+        background-color: var(--White);
+        width: 48rem;
+        padding: 50px;
+        gap: 10px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.253);
+    }
+
+    figure {
+        padding: 20px;
+    }
+
+    .post-img {
+        height: 4rem;
+    }
+
+    #read:hover {
+        color: var(--Blue);
+    }
+
+    .post:hover {
+        color: var(--Blue);
+    }
+
+    .name:hover {
+        color: var(--Blue);
+    }
+
+    #rizky>figcaption>.msg:hover {
+        border: 1px solid var(--Lightgrayishblue1);
+        background-color: var(--Lightgrayishblue1);
+    }
+}
