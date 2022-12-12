@@ -4,6 +4,9 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ## Overview
 
+![desktop-preview](https://user-images.githubusercontent.com/94350356/207114889-23451a12-91df-4696-8a82-b196c2230d00.jpg)
+
+
 ### The challenge
 
 Users should be able to:
@@ -14,6 +17,15 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
+
+Desktop-view:
+
+![active-states](https://user-images.githubusercontent.com/94350356/207114925-ba1bbb3d-4e71-4725-a87c-031cf8eb1132.jpg)
+
+Mobile-view:
+
+![mobile-design](https://user-images.githubusercontent.com/94350356/207114975-f44863eb-a47b-4142-af05-af2a8b370520.jpg)
+
 
 ### Links
 
